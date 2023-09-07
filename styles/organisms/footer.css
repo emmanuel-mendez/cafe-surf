@@ -1,0 +1,130 @@
+.footer__host {
+  background-color: #05386B;
+  border-bottom: 4.5556rem solid #021E39;
+  padding: 7.2277rem 1.5rem 8.5764rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.3499rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.4372rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav__item {
+  position: relative;
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .footer-nav__item {
+    font-size: 0.9rem;
+    line-height: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 87.5rem) {
+  .footer-nav__item {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+.footer-nav__item::before {
+  position: absolute;
+  top: calc(100% + 0.5824rem);
+  left: 0;
+  content: '';
+  width: 0;
+  min-height: 0.0625rem;
+  background-color: #0BC5BB;
+  transition: width 0.2s ease;
+}
+
+.footer-nav__item:hover::before {
+  width: 100%;
+}
+
+.footer-nav__item--active {
+  color: #0BC5BB;
+}
+
+.footer-nav__item--active::before {
+  width: 100%;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.9735rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .footer__contact {
+    align-items: center;
+    flex-direction: row;
+    gap: 1.9735rem;
+  }
+}
+
+.footer__socials {
+  display: flex;
+  gap: 1.8693rem;
+  align-items: center;
+}
+
+
+.footer__separator {
+  min-height: 5.0741rem;
+  background-color: #0BC5BB;
+  width: 0.0625rem;
+}
+
+.footer__email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2022rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .footer__email-container {
+    flex-direction: row;
+  }
+}
+
+
+
+.footer__email-us {
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+  color: #0BC5BB;
+}
+
+.footer__email-dot {
+  width: 0.3125rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: #0BC5BB;
+}
+
+.footer__email {
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
+.footer__email--bold {
+  color: #0BC5BB;
+}
