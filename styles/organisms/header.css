@@ -1,5 +1,7 @@
 .header__host {
   position: sticky;
+  top: 0;
+  left: 0;
   background-color: #05386B;
   border-top: 1.6146rem solid #021E39;
   padding: 3.4024rem 1.5rem 3.3736rem;

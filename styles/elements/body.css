@@ -4,4 +4,5 @@ body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	scroll-behavior: smooth;
+	scrollbar-gutter: stable;
 }

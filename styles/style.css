@@ -23,6 +23,8 @@
 @import './organisms/header.css';
 @import './organisms/nav.css';
 @import './organisms/footer.css';
+@import './organisms/content.css';
+@import './organisms/gallery.css';
 
 /* Utilities */
 @import './utilities/responsive.css';
