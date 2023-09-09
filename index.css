@@ -1,0 +1,220 @@
+.home {
+  .banner {
+    display: flex;
+    align-items: center;
+    background-image: url('/assets/webp/home__banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    aspect-ratio: 1920 / 872.0386;
+    padding: 2rem min(16.197rem, 13.4974%);
+  }
+
+  .banner__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 5rem;
+    line-height: 100%;
+    font-family: 'Akzidenz-grotesk-light';
+    color: #FFFFFF;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 117.0937pt;
+      line-height: 99.5889pt;
+    }
+  }
+
+  .banner__word {
+    font-weight: 400;
+
+    &:nth-child(odd) {
+      font-weight: 900;
+    }
+  }
+
+  .miniatures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (min-width: 37.5rem) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .miniatures__item {
+    width: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3.3137rem;
+    padding: 8.4184rem min(8.4184rem, 7.0153%);
+
+    @media screen and (min-width: 64rem) {
+      flex-direction: row;
+      gap: 6.392rem;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .section__image {
+    aspect-ratio: 923.7091 / 580.2963;
+
+    @media screen and (min-width: 64rem) {
+      width: 48.1098%;
+    }
+  }
+
+  .gil-cardenas {
+    position: relative;
+    background-image: url('/assets/webp/banner--gil-cardenas.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    aspect-ratio: 1920 / 1080;
+  }
+
+  .gil-cardenas__info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: max-content;
+    gap: 2.1987rem;
+    color: #ffffff;
+  }
+
+  .gil-cardenas__description {
+    font-size: 20pt;
+    max-width: 63ch;
+    text-align: center;
+    font-family: 'Oswald';
+  }
+
+  .gil-cardenas__more {
+    font-size: 10pt;
+    font-family: 'Akzidenz-grotesk-light';
+  }
+
+  .programs {
+    display: grid;
+
+    @media screen and (min-width: 37.5rem) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .program {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    aspect-ratio: 960 / 1231.6667;
+  }
+
+  .program--surf-program {
+    background-image: url('./assets/webp/home__surf-program.webp');
+  }
+
+  .program--winter-season {
+    background-image: url('./assets/webp/home__winter-season.webp');
+  }
+
+  .program__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    font-family: 'Akzidenz-grotesk-light';
+  }
+
+  .program__content--winter-season {
+    @media screen and (min-width: 37.5rem) {
+      right: unset;
+      left: 5rem;
+    }
+  }
+
+  .program__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #FFFFFF;
+    font-size: 40pt;
+    line-height: 100%;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 80pt;
+    }
+  }
+
+  .program__title--winter-season {
+    @media screen and (min-width: 37.5rem) {
+      align-items: flex-start;
+    }
+  }
+
+  .program__title--dark {
+    color: #0BC5BB;
+  }
+
+  .program__range {
+    color: #ffffff;
+    align-self: flex-end;
+    font-size: 15pt;
+    line-height: calc(67.6512pt / 2);
+
+    @media screen and (min-width: 64rem) {
+      font-size: 30pt;
+      line-height: 67.6512pt;
+    }
+  }
+
+  .program__range--winter-season {
+    align-self: flex-start;
+  }
+
+  .great-location {
+    display: grid;
+    padding: 8.4184rem min(8.4184rem, 7.0153%) 0;
+    gap: 5.0973rem;
+
+    @media screen and (min-width: 85.375rem) {
+      grid-template-columns: auto min(50%, 50.978rem);
+    }
+
+    @media screen and (min-width: 90rem) {
+      gap: 9.0973rem;
+    }
+  }
+
+  .great-location__images {
+    display: flex;
+    gap: 2.2315rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .great-location__image {
+    width: 50%;
+    aspect-ratio: 437.2776 / 651.2593;
+  }
+
+  .great-location__image--1 {
+    aspect-ratio: 437.2776 / 651.2593;
+  }
+
+  .great-location__image--2 {
+    aspect-ratio: 342.6667 / 512.2963;
+    max-width: 32.0185rem;
+  }
+}

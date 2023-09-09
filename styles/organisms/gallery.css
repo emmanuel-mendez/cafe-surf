@@ -1,0 +1,41 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2223rem;
+  width: 100%;
+  padding: calc(11.5231rem / 3) 3.3%;
+
+  @media screen and (min-width: 64rem) {
+    padding: 11.5231rem 3.3%;
+  }
+
+
+  .row {
+    width: 100%;
+    display: flex;
+    gap: 1.2223rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2223rem;
+    max-width: 54.125rem;
+  }
+
+  .item {
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .item--large {
+    width: 100%;
+    max-width: 54.125rem;
+
+    @media screen and (min-width: 80rem) {
+      width: unset;
+    }
+  }
+}

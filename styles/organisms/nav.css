@@ -1,0 +1,96 @@
+.nav__host {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  background-color: #021E39;
+  transition: right 0.4s ease;
+}
+
+@media screen and (min-width: 64rem) {
+  .nav__host {
+    position: static;
+    width: max-content;
+    background-color: transparent;
+  }
+}
+
+.nav__host--expanded {
+  right: 0;
+}
+
+.nav__close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4ch;
+  align-items: center;
+}
+
+@media screen and (min-width: 64rem) {
+  .nav {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .nav {
+    gap: 2.2158rem;
+  }
+}
+
+
+.nav__item {
+  position: relative;
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .nav__item {
+    font-size: 0.9rem;
+    line-height: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 87.5rem) {
+  .nav__item {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+.nav__item::before {
+  position: absolute;
+  top: calc(100% + 0.5824rem);
+  left: 0;
+  content: '';
+  width: 0;
+  min-height: 0.0625rem;
+  background-color: #0BC5BB;
+  transition: width 0.2s ease;
+}
+
+.nav__item:hover::before {
+  width: 100%;
+}
+
+.nav__item--active {
+  color: #0BC5BB;
+}
+
+.nav__item--active::before {
+  width: 100%;
+}

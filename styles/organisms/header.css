@@ -1,0 +1,46 @@
+.header__host {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #05386B;
+  border-top: 1.6146rem solid #021E39;
+  padding: 3.4024rem 1.5rem 3.3736rem;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.header__logo {
+  width: 12rem;
+}
+
+@media screen and (min-width: 80rem) {
+  .header__logo {
+    width: 20.9583rem;
+  }
+}
+
+.header__menu {
+  width: 3.125rem;
+}
+
+.header__links {
+  display: flex;
+  gap: 4.7384rem;
+}
+
+.header__socials {
+  display: flex;
+  gap: 0.8492rem;
+}
+
+.header__social {
+  width: 1.1431rem;
+  aspect-ratio: 1 / 1;
+}

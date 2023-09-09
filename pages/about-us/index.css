@@ -1,0 +1,9 @@
+.about-us {
+  .banner {
+    background-image: url('../../assets/webp/banner--gil-cardenas.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1920 / 1080;
+  }
+}
