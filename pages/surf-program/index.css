@@ -1,0 +1,9 @@
+.surf-program {
+  .banner {
+    background-image: url('../../assets/webp/surf-program__banner-background.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1920 / 1080;
+  }
+}

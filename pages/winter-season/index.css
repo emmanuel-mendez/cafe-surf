@@ -1,0 +1,9 @@
+.winter-season {
+  .banner {
+    background-image: url('../../assets/webp/winter-season__banner-background.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1920 / 1080;
+  }
+}
