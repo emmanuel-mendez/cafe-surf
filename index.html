@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cafe Surf - Home</title>
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
+<body class="home">
   <header class="header__host">
     <div class="header container">
-      <a href="./index.html">
+      <a href="../../index.html">
         <img class="header__logo" src="./assets/svg/logo.svg" alt="Logo">
       </a>
 
@@ -23,12 +24,12 @@
         <div class="header__links">
           <ul class="nav">
             <li class="nav__item nav__item--active"><a href="#">HOME</a></li>
-            <li class="nav__item"><a href="/surf-program.html">SURF PROGRAM</a></li>
-            <li class="nav__item"><a href="/winter-season.html">WINTER SEASON</a></li>
-            <li class="nav__item"><a href="about-us.html">ABOUT US</a></li>
+            <li class="nav__item"><a href="./pages/surf-program/surf-program.html">SURF PROGRAM</a></li>
+            <li class="nav__item"><a href="./pages/winter-season/winter-season.html">WINTER SEASON</a></li>
+            <li class="nav__item"><a href="./pages/about-us/about-us.html">ABOUT US</a></li>
             <li class="nav__item"><a href="#">HUATULCO</a></li>
             <li class="nav__item"><a href="#">BLOG</a></li>
-            <li class="nav__item"><a href="./contact-us.html">CONTACT US</a></li>
+            <li class="nav__item"><a href="./pages/about-us/about-us.html">CONTACT US</a></li>
           </ul>
 
           <div class="header__socials responsive--desktop">
@@ -43,24 +44,128 @@
             </a>
           </div>
         </div>
-
-
       </nav>
     </div>
   </header>
 
-  <main></main>
+  <main class="banner">
+    <h1 class="banner__title">
+      <span class="banner__word">SURF</span>
+      <span class="banner__word">EAT</span>
+      <span class="banner__word">SLEPP</span>
+      <span class="banner__word">REPEAT</span>
+    </h1>
+  </main>
+
+  <section class="miniatures">
+    <img class="miniatures__item" src="./assets/webp/home__mini--1.webp" alt="Beach">
+    <img class="miniatures__item" src="./assets/webp/home__mini--2.webp" alt="Beach">
+    <img class="miniatures__item" src="./assets/webp/home__mini--3.webp" alt="Animal">
+    <img class="miniatures__item" src="./assets/webp/home__mini--4.webp" alt="Beach">
+  </section>
+
+  <section class="section">
+    <img class="section__image" src="./assets/webp/home__surfers-paradise.webp" alt="Surfers paradise">
+
+    <div class="content">
+      <h2 class="title">
+        <span class="title--dark">SURFERS</span>
+        <span class="title--light">PARADISE</span>
+      </h2>
+
+      <div class="body">
+        <p class="description">It’s no secret that Southern Oaxaca has world class right point breaks. They can
+          be described as endless. Add some warm
+          water and a natural environment which still dominates this area and you have the perfect recipe of a dream
+          surf trip.</p>
+        <button class="button">READ MORE</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="gil-cardenas">
+    <div class="gil-cardenas__info">
+      <p class="gil-cardenas__description responsive--desktop">“Gil is a local legend, born and raised in Huatulco, the
+        ocean has always
+        been is backyard and the waves his playground.
+        Guiding so many friends around his home breaks for so many years made him an expert.
+      </p>
+      <p class="gil-cardenas__more"><a href="">READ MORE</a></p>
+    </div>
+  </section>
+
+  <section class="programs">
+    <div class="program program--surf-program">
+      <div class="program__content">
+        <h2 class="program__title">
+          <span class="program__title--light">SURF</span>
+          <span class="program__title--dark">PROGRAM</span>
+        </h2>
+        <p class="program__range">MATCH TO OCTOBER</p>
+      </div>
+    </div>
+    <div class="program program--winter-season">
+      <div class="program__content program__content--winter-season">
+        <h2 class="program__title program__title--winter-season">
+          <span class="program__title--light">WINTER</span>
+          <span class="program__title--dark">SEASON</span>
+        </h2>
+        <p class="program__range program__range--winter-season">NOVEMBER TO MARCH</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="great-location">
+
+    <div class="content">
+      <h2 class="title">
+        <span class="title--dark">GREAT</span>
+        <span class="title--light">LOCATION</span>
+      </h2>
+
+      <div class="body">
+        <p class="description">Bahias de Huatulco is located between Puerto Escondido and Salina Cruz, you will land in
+          Huatulco international airport
+          in the middle of the oaxacan coast of Mexico's remote surf paradise.</p>
+        <button class="button">READ MORE</button>
+      </div>
+    </div>
+
+    <div class="great-location__images">
+      <img class="great-location__image great-location__image--1" src="./assets/webp/home__great-location--1.webp"
+        alt="Beach">
+      <img class="great-location__image great-location__image--2" src="./assets/webp/home__great-location--2.webp"
+        alt="Lake">
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="row">
+      <div class="items">
+        <img class="item" src="./assets/webp/home-gallery__item--1.webp" alt="Car">
+        <img class="item" src="./assets/webp/home-gallery__item--2.webp" alt="Dunk">
+      </div>
+      <img class="item--large" src="./assets/webp/home-gallery__item--3.webp" alt="Beach">
+    </div>
+    <div class="row">
+      <img class="item--large" src="./assets/webp/home-gallery__item--4.webp" alt="Beach">
+      <div class="items">
+        <img class="item" src="./assets/webp/home-gallery__item--5.webp" alt="Bicycle">
+        <img class="item" src="./assets/webp/home-gallery__item--6.webp" alt="Dogs">
+      </div>
+    </div>
+  </section>
 
   <footer class="footer__host">
     <div class="footer container">
       <ul class="footer-nav">
         <li class="footer-nav__item footer-nav__item--active"><a href="#">HOME</a></li>
-        <li class="footer-nav__item"><a href="/surf-program.html">SURF PROGRAM</a></li>
-        <li class="footer-nav__item"><a href="/winter-season.html">WINTER SEASON</a></li>
-        <li class="footer-nav__item"><a href="about-us.html">ABOUT US</a></li>
+        <li class="footer-nav__item"><a href="./pages/surf-program/surf-program.html">SURF PROGRAM</a></li>
+        <li class="footer-nav__item"><a href="./pages/winter-season/winter-season.html">WINTER SEASON</a></li>
+        <li class="footer-nav__item"><a href="./pages/about-us/about-us.html">ABOUT US</a></li>
         <li class="footer-nav__item"><a href="#">HUATULCO</a></li>
         <li class="footer-nav__item"><a href="#">BLOG</a></li>
-        <li class="footer-nav__item"><a href="./contact-us.html">CONTACT US</a></li>
+        <li class="footer-nav__item"><a href="./pages/contact-us/contact-us.html">CONTACT US</a></li>
       </ul>
 
       <div class="footer__contact">
@@ -88,7 +193,7 @@
 
       </div>
 
-      <a href="./index.html"><img class="footer__logo" src="./assets/svg/logo.svg" alt="Logo"></a>
+      <a href="../../index.html"><img class="footer__logo" src="./assets/svg/logo.svg" alt="Logo"></a>
 
     </div>
   </footer>
