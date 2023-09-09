@@ -2,7 +2,7 @@
   .banner {
     display: flex;
     align-items: center;
-    background-image: url('/assets/webp/home__banner.webp');
+    background-image: url('./assets/webp/home__banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
