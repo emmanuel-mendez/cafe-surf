@@ -1,0 +1,43 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: calc(9.9694rem / 2.5) 0 0;
+  gap: 3rem;
+  align-items: center;
+
+  @media screen and (min-width: 64rem) {
+    padding: 9.9694rem 0;
+  }
+}
+
+.intro__description {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5ch;
+  max-width: 251ch;
+}
+
+.intro__paragraph {
+  text-align: center;
+
+  @media screen and (min-width: 64rem) {
+    font-size: 38pt;
+  }
+}
+
+.button {
+  font-size: 1.5rem;
+  border: none;
+  color: #0BC5BB;
+  padding: 0.25rem 1rem;
+  background-color: #05386B;
+  cursor: pointer;
+  font-family: 'Akzidenz-grotesk-light';
+
+  @media screen and (min-width: 64rem) {
+    font-size: 20pt;
+    padding: .5rem 2.5rem;
+  }
+}
