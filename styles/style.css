@@ -20,6 +20,7 @@
 @import './elements/picture.css';
 
 /* Organisms */
+@import './organisms/banner.css';
 @import './organisms/header.css';
 @import './organisms/nav.css';
 @import './organisms/footer.css';
