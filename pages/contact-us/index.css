@@ -1,10 +1,123 @@
 .contact-us {
-
   .banner {
     background-image: url('../../assets/webp/contact__banner-background.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     aspect-ratio: 1920 / 1280;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+    align-items: center;
+
+    @media screen and (min-width: 64rem) {
+      gap: 4rem;
+      padding: 6rem 1.5rem;
+    }
+  }
+
+  .contact__header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .contact__title {
+    font-family: 'Akzidenz-grotesk-light';
+    color: #05386B;
+    font-weight: 900;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 80pt;
+    }
+  }
+
+  .contact__title--bold {
+    color: #0BC5BB;
+  }
+
+  .contact__description {
+    text-align: center;
+    font-weight: 400;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 38pt;
+    }
+  }
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @media screen and (min-width: 64rem) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: min(100%, 63.9331rem);
+      margin: 0 auto;
+      gap: 0.8rem;
+    }
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @media screen and (min-width: 64rem) {
+      gap: 0.8rem;
+    }
+  }
+
+  .contact__input {
+    border: 0.0625rem solid #0BC5BB;
+    padding: 0.8rem 1.5rem;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 18pt;
+    }
+  }
+
+  .contact__button {
+    border: none;
+    background-color: #0BC5BB;
+    color: #05386B;
+    padding: 1rem 1.5rem;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 18pt;
+    }
+  }
+
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem 3rem;
+    background-color: #05386B;
+  }
+
+  .contact__item {
+    display: flex;
+    gap: 1.5ch;
+    align-items: flex-start;
+  }
+
+  .contact__text {
+    color: #ffffff;
+    font-weight: 400;
+
+    @media screen and (min-width: 64rem) {
+      font-size: 20pt;
+    }
+  }
+
+  .contact__line {
+    display: block;
   }
 }
