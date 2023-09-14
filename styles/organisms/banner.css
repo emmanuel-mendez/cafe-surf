@@ -23,6 +23,10 @@
   gap: 1.1988rem;
 }
 
+.pagination__control {
+  cursor: pointer;
+}
+
 .pagination__pages {
   display: flex;
   align-items: center;
@@ -34,6 +38,7 @@
   aspect-ratio: 1 / 1;
   background-color: #ffffff;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .pagination__page--active {
