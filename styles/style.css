@@ -19,6 +19,9 @@
 @import './elements/paragraph.css';
 @import './elements/picture.css';
 
+/* Molecules */
+@import './molecules/intro.css';
+
 /* Organisms */
 @import './organisms/banner.css';
 @import './organisms/header.css';
