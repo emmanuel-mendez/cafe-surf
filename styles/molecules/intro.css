@@ -12,6 +12,21 @@
   }
 }
 
+.intro--relative {
+  position: relative;
+  bottom: 5ch;
+  padding: calc(9.9694rem / 6) 2rem;
+  background-color: #ffffff;
+  max-width: min(80.2777%, 96.3333rem);
+  margin-bottom: -5ch;
+
+  @media screen and (min-width: 64rem) {
+    padding: calc(9.9694rem / 2) 4rem;
+    bottom: 15ch;
+    margin-bottom: -15ch;
+  }
+}
+
 .intro__description {
   display: flex;
   flex-direction: column;
@@ -40,4 +55,11 @@
     font-size: 20pt;
     padding: .5rem 2.5rem;
   }
+}
+
+.button--tertiary {
+  background-color: transparent;
+  color: #979797;
+  font-size: calc(1.5rem / 2);
+  padding: 0;
 }
